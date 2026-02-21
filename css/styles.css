@@ -1,0 +1,11 @@
+/* CRITICAL DATA STRUCTURE:
+   Password format discovered in ancient text:
+   WORD1_WORD2_WORD3 
+   (Use underscore as separator, ALL CAPS)
+*/
+
+body { background-color: #1a1a1a; color: #d4c4a8; font-family: serif; }
+.container { max-width: 800px; margin: auto; padding: 20px; }
+.paper { background-color: #f4ece1; color: #2e2b26; padding: 40px; }
+.download-btn { display: inline-block; background: #4a3728; color: white; padding: 10px; text-decoration: none; margin-top: 10px; }
+.math-riddle { font-size: 1.5em; background: #000; color: #0f0; padding: 20px; text-align: center; font-family: monospace; }
