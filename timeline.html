@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Excavation Timeline</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="container">
@@ -15,7 +15,10 @@
             <div class="event">
                 <h3>PHASE III: THE DISCOVERY</h3>
                 <p>The vault finally opened in a year defined by the Great Unity. Calculate the Year of History:</p>
-                <p class="math-riddle">Year = (2 &times; 1000) + (2 &times; 10) + 1</p>
+                <p class="math-riddle">In the year when:</br>
+                    • Two millennia had passed</br>  
+                    • Two decades more were counted </br> 
+                    • Unity marked the final digit </p>
             </div>
         </section>
 
@@ -24,38 +27,24 @@
             <div class="grid">
                 <div class="item">
                     <img src="pottery.jpg" alt="Sealed Pottery" width="150">
-                    <p>Pottery.jpg (Encrypted with Steghide)</p>
-                    <a href="pottery.jpg" download>Download</a>
+                    <p>Pottery.jpg </p>
+                    
                 </div>
                 <div class="item">
                     <img src="map.jpg" alt="Dig Map" width="150">
-                    <p>Map.jpg (Contains Password Fragment)</p>
-                    <a href="map.jpg" download>Download</a>
+                    <p>Map.jpg </p>
+                    
                 </div>
                 <div class="item">
                     <img src="coins.jpg" alt="Old Coins" width="150">
-                    <p>Coins.jpg (Check EXIF for Key)</p>
-                    <a href="coins.jpg" download>Download</a>
+                    <p>Coins.jpg</p>
+                
                 </div>
             </div>
         </section>
-
-        <section class="submission">
-            <h3>VALIDATE DISCOVERY DATE</h3>
-            <input type="text" id="dateInput" placeholder="DD-MM-YYYY">
-            <button onclick="checkDate()">SUBMIT</button>
-        </section>
+         <footer class="archive-footer">
+            <p>&copy; 1924-2026 Marsh Foundation for Antiquities</p>
+        </footer>
     </div>
-
-    <script>
-        function checkDate() {
-            const val = document.getElementById('dateInput').value;
-            if(val === "25-10-2021") {
-                alert("ACCESS GRANTED! FLAG: CTF{ancient_wisdom_25_10_2021_discovered}");
-            } else {
-                alert("DATE INCORRECT. THE ANCIENTS REMAIN SILENT.");
-            }
-        }
-    </script>
 </body>
 </html>

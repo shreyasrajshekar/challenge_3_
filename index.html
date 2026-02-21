@@ -2,31 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Marsh Archive | Restricted Access</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <div class="container">
-        <header>
-            <h1>PROJECT: ETERNAL CIPHER</h1>
-            <p class="status">AUTHORIZED PERSONNEL ONLY - DATA RECOVERY IN PROGRESS</p>
+<body class="archaeology-theme">
+    <div class="site-wrapper">
+        <header class="archive-header">
+            <div class="seal"></div>
+            <h1>THE MARSH ARCHIVE</h1>
+            <p class="institution">DEPARTMENT OF ARCHAEOLOGY & ANCIENT TEXTS</p>
+            <div class="divider"></div>
+            <p class="access-warning">AUTHORIZED ACCESS ONLY • SUBJECT: PROJECT ETERNAL CIPHER</p>
         </header>
 
-        <main>
-            <section class="memo">
+        <main class="archive-grid">
+            <section class="memo-card full-width">
                 <h2>DEAN'S MEMORANDUM</h2>
-                <p>Dr. Elena Marsh disappeared shortly after claiming to have "synchronized the ancient heavens with the earth." We have recovered her digital directory. You are tasked with reconstructing the <strong>Discovery Date (DD-MM-YYYY)</strong>.</p>
+                <div class="memo-content">
+                    <p>Dr. Elena Marsh disappeared shortly after claiming to have <em>"synchronized the ancient heavens with the earth."</em> We have recovered her digital directory. You are tasked with reconstructing the <strong>Discovery Date (DD-MM-YYYY)</strong>.</p>
+                </div>
             </section>
 
-            <nav class="directory">
-                <h3>RECOVERED DIRECTORY</h3>
-                <ul>
-                    <li><a href="poem.html">> OPEN_FILE: poem.html (Ancient Numerology)</a></li>
-                    <li><a href="journal.html">> OPEN_FILE: journal.html (Celestial Observations)</a></li>
-                    <li><a href="timeline.html">> OPEN_FILE: timeline.html (Excavation Chronology)</a></li>
-                </ul>
+            <nav class="directory-grid">
+                <a href="poem.html" class="nav-card">
+                    <span class="file-id">FILE: 001</span>
+                    <h3>Ancient Numerology</h3>
+                    <p>Poetic transcriptions of celestial alignments.</p>
+                    <span class="status-tag">UNLOCKED</span>
+                </a>
+                
+                <a href="journal.html" class="nav-card">
+                    <span class="file-id">FILE: 042</span>
+                    <h3>Celestial Observations</h3>
+                    <p>Dr. Marsh's personal logs regarding planetary transit.</p>
+                    <span class="status-tag">UNLOCKED</span>
+                </a>
+
+                <a href="timeline.html" class="nav-card">
+                    <span class="file-id">FILE: 089</span>
+                    <h3>Excavation Chronology</h3>
+                    <p>Site logs from the Khnum excavation project.</p>
+                    <span class="status-tag">UNLOCKED</span>
+                </a>
             </nav>
         </main>
+
+        <footer class="archive-footer">
+            <p>&copy; 1924-2026 Marsh Foundation for Antiquities</p>
+        </footer>
     </div>
 </body>
 </html>
